@@ -49,4 +49,4 @@ import { HttpClientModule } from "@angular/common/http";
         },
     ],
 })
-export class CumulocityVideoWidgetModule {}
+export class CumulocityVideoWidgetModule { }

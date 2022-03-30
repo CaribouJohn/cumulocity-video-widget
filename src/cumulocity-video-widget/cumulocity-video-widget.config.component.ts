@@ -24,13 +24,14 @@ import { Component, Input, OnInit, OnDestroy } from '@angular/core';
 })
 export class CumulocityVideoWidgetConfig implements OnInit, OnDestroy {
 
-   ngOnInit(): void {
+    ngOnInit(): void {
         this.config.streamURL = 'https://cdnuk001.broadcastcdn.net/KUK-BBCNEWSHD/index.m3u8';
-        this.config.title = "Title"
+        this.config.title = "Title";
     }
 
     ngOnDestroy(): void {
         //unsubscribe from observables here
+        //really
     }
 
 
